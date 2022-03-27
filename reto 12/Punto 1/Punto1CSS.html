@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="StyleSheet" href="Punto1Estilo.css" type="text/css">
+    <meta charset="utf-8">
+    <title>ACCEDER INTERNET STARLINK</title>
+    <h1><b>ACCEDER INTERNET STARLINK</b></h1>
+</head>
+
+<body>
+    <form action="correo@gmail.com" method="get">
+        <div class="form">
+            <div class="sections">
+                <fieldset class="fieldset">
+                    <legend>
+                        <h3>DATOS DEL USUARIO</h3>
+                    </legend>
+                    <p><label>Nombres: </label><input class="input" type="text" name="nombre" size="27" required></p>
+                    <p><label>Apellidos: </label><input class="input" type="text" name="nombre" size="27" required></p>
+                    <p><label>País: </label><input class="input" type="text" name="nombre" size="27" required></p>
+                    <p><label>Departamento: </label><input class="input" type="text" name="nombre" size="27" required></p>
+                    <p><label>Ciudad: </label><input class="input" type="text" name="nombre" size="27" required></p>
+                    <p><label>Fecha de nacimiento: </label><input class="input" type="date" name="fechaNacimiento" required></p>
+                </fieldset>
+            </div>
+
+            <div class="sections">
+                <fieldset class="fieldset">
+                    <legend>
+                        <h3>DATOS DE CONTACTO </h3>
+                    </legend>
+                    <p><label id="label">Número de celular:</label> <input class="inputContacto" type="number" name="telefono" maxlength="10" required></p>
+                    <p><label>Correo eléctronico:</label> <input class="inputContacto" type="email" name="email" required></p>
+                    <p><label>Contraseña correo:</label> <input class="inputContacto" type="password" name="contraseña" required></p>
+                    <p><label>Cobertura a internet actualmente: <input id="input" type="checkbox" name="becado"></label></p>
+                    <p>Color de la antena:
+                        <select class="input" name="area" required>
+                            <option class="input" value="derecho">Blanco</option>
+                            <option class="input" value="ingenieria">Dorado</option>
+                            <option class="input" value="medicina">Gris espacial</option>
+                        </select>
+                    </p>
+                </fieldset>
+            </div>
+         
+            <p id="Pbutton"><input class="button" type="submit" value="Completar registro STARLINK">
+            </p>
+        </div>
+    </form>
+</body>
+
+</html>
